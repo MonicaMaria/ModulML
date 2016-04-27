@@ -1,25 +1,34 @@
+import java.util.List;
+import java.util.ArrayList;
+
 public class TrainingElement {
 
-  public List<double> input;
+    /**
+     *
+     */
+  public List<Double> input;
 
   public String label;
 
   
   public void TrainingElement() {
+      input = new ArrayList<>();
   }
 
-  public List<double> getInput() {
-  return null;
+  public List<Double> getInput() {
+      return input;
   }
 
-  public void setInput( List<double>) {
+  public void setInput( List<Double> in) {
+      input = in;
   }
 
   public String getLabel() {
-  return null;
+      return label;
   }
 
-  public void setLabel(String label) {
+  public void setLabel(String lbl) {
+      label = lbl;
   }
 
 }

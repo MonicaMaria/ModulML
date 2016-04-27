@@ -1,31 +1,36 @@
-import java.util.Vector;
+import java.util.List;
+import java.util.ArrayList;
 
 public class LearningRule {
 
   public boolean stopLearning;
 
-    public Vector  learningRule;
-    public Vector  neuralNetwork;
-    public Vector  trainingSet;
+  public NeuralNetwork  neuralNetwork;
+  public TrainingSet  trainingSet;
 
   public void LearningRule() {
+      neuralNetwork = null;
+      trainingSet = null;
   }
 
   public void LearningRule(NeuralNetwork network) {
+      neuralNetwork = network;
   }
 
   public void setTrainingSet(TrainingSet trainingSet) {
+      trainingSet = trainingSet;
   }
 
   public TrainingSet getTrainingSet() {
-  return null;
+    return trainingSet;
   }
 
   public NeuralNetwork getNeuralNetwork() {
-  return null;
+    return neuralNetwork;
   }
 
-  public void setNeuralNetwork(NeuralNetwork neuralNetwork) {
+  public void setNeuralNetwork(NeuralNetwork network) {
+    neuralNetwork = network;
   }
 
   public void run() {
@@ -35,7 +40,7 @@ public class LearningRule {
   }
 
   public boolean isStopped() {
-  return false;
+    return false;
   }
 
   public void notifyChange() {
