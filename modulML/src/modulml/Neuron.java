@@ -1,123 +1,131 @@
-import java.util.Vector;
+package modulml;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Neuron {
 
-  public double netInput;
+    private double netInput;
+    private double output;
+    private double error;
 
-  public double output;
+    private List<Connection> inputConnections;
+    private List<Connection> outConnections;
 
-  public double error;
+    private Layer parentLayer;
+    private TransferFunction transferFunction;
+    private InputFunction inputFunction;
 
-    /**
-   * 
-   * @element-type Connection
-   */
-  public Vector  inputConnections;
-    /**
-   * 
-   * @element-type Connection
-   */
-  public Vector  outConnections;
-    public Vector  myConnection;
-    public Vector  myConnection;
-    public Vector  parentLayer;
-    public Vector  myLayer;
-    public Vector  transferFunction;
-    public Vector  inputFunction;
-    public Vector  outputNeurons;
-    public Vector  inputNeurons;
+    public void Neuron() {
+        inputConnections = new ArrayList<>();
+        outConnections = new ArrayList<>();
+    }
 
-  public void Neuron() {
-  }
+    public void Neuron(InputFunction inputFunction, TransferFunction transferFunction) {
+        this.inputFunction = inputFunction;
+        this.transferFunction = transferFunction;
+        inputConnections = new ArrayList<>();
+        outConnections = new ArrayList<>();
+    }
 
-  public void Neuron( inputFunction,  transferFunction) {
-  }
+    public void calculate() {
+        output = inputFunction.getOutput(inputConnections);
+    }
 
-  public void calculate() {
-  }
+    public void reset() {
+        randomizeInputWeights();
+    }
 
-  public void reset() {
-  }
+    public void setInput(double input) {
+        this.netInput=input;
+    }
 
-  public void setInput(double input) {
-  }
+    public double getNetInput() {
+        return netInput;
+    }
 
-  public double getNetInput() {
-  return 0.0;
-  }
+    public double getOutput() {
+        return output;
+    }
 
-  public double getOutput() {
-  return 0.0;
-  }
+    public boolean hasInputConnection() {
+        return inputConnections.size() > 0;
+    }
 
-  public boolean hasInputConnection() {
-  return false;
-  }
+    public void addInputConnection(Connection connection) {
+        inputConnections.add(connection);
+    }
 
-  public Iterator<Connection> getInputsIterator() {
-  return null;
-  }
+    public void addOutputConnection(Connection connection) {
+        outConnections.add(connection);
+    }
 
-  public void addInputConnection(Connection connection) {
-  }
+    public List<Connection> getInputConnections() {
+        return inputConnections;
+    }
 
-  public void addInputConnection(Neuron fromNeuron, double weight) {
-  }
+    public List<Connection> getOutConnections() {
+        return outConnections;
+    }
 
-  public void addOutputConnection(Connection connection) {
-  }
+    public void removeInputConnection(Neuron fromNeuron) {
+        for (int i = 0 ; i < inputConnections.size(); i++)
+            if(inputConnections.get(i).connectedNeuron==fromNeuron)
+                inputConnections.remove(i);
+    }
 
-  public List<Connection> getInputConnections() {
-  return null;
-  }
+    public Connection getConnectionFrom(Neuron fromNeuron) {
+        for (int i = 0 ; i < inputConnections.size(); i++)
+            if(inputConnections.get(i).connectedNeuron==fromNeuron)
+                return inputConnections.get(i);
+        return null;
+    }
 
-  public List<Connection> getOutConnections() {
-  return null;
-  }
+    public void setInputFunction(InputFunction function) {
+        this.inputFunction=function;
+    }
 
-  public void removeInputConnection(Neuron fromNeuron) {
-  }
+    public void setTransferFunction(TransferFunction function) {
+        this.transferFunction=function;
+    }
 
-  public Connection getConnectionFrom(Neuron fromNeuron) {
-  return null;
-  }
+    public InputFunction getInputFunction() {
+        return this.inputFunction;
+    }
 
-  public void setInputFunction(InputFunction function) {
-  }
+    public TransferFunction getTransferFunction() {
+        return this.transferFunction;
+    }
 
-  public void setTransferFunction(TransferFunction function) {
-  }
+    public void setParentLayer(Layer layer) {
+        this.parentLayer=layer;
+    }
 
-  public InputFunction getInputFunction() {
-  return null;
-  }
+    public Layer getParentLayer() {
+        return parentLayer;
+    }
 
-  public TransferFunction getTransferFunction() {
-  return null;
-  }
+    public List<Weight> getWeights() {
+        List<Weight> wgt = new ArrayList<>();
+        for(int i = 0; i < inputConnections.size(); i++)
+            wgt.add(inputConnections.get(i).weight);
+    }
 
-  public void setParentLayer(Layer layer) {
-  }
+    public double getError() {
+        return error;
+    }
 
-  public Layer getParentLayer() {
-  return null;
-  }
+    public void setError(double error) {
+        this.error=error;
+    }
 
-  public List<Weight> getWeights() {
-  return null;
-  }
+    public void setOutput(double output) {
+        this.output=output;
+    }
 
-  public double getError() {
-  return 0.0;
-  }
-
-  public void setError(double error) {
-  }
-
-  public void setOutput(double output) {
-  }
-
-  public void randomizeInputWeights() {
-  }
+    public void randomizeInputWeights() {
+        for (int i=0; i< inputConnections.size(); i++)
+            inputConnections.get(i).weight.value = Math.random();
+    }
 
 }
