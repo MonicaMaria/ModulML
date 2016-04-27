@@ -17,12 +17,12 @@ public class NeuralNetwork {
   }
 
   public void addLayer(Layer layer) {
-    final boolean ok;
-    ok = layers.add(layer);
+    layer.setParentNetwork(this);
+    layers.add(layer);
   }
 
   public void addLayer(int idx, Layer layer) {
-    final boolean ok;
+    layer.setParentNetwork(this);
     layers.add(idx,layer);
   }
 
@@ -34,10 +34,6 @@ public class NeuralNetwork {
   public void removeLayer(int idx) {
     Layer layer = layers.remove(idx);
   }
-
-    /*public Iterator<Layer> getLayersIterator() {
-        return null;
-    }*/
 
   public List<Layer> getLayers() {
     return layers;
@@ -70,6 +66,7 @@ public class NeuralNetwork {
   }
 
   public void run() {
+
   }
 
   public void learn(TrainingSet trainingSetToLearn) {
