@@ -68,7 +68,7 @@ public class LearningRule {
       
   }
   
-  public List<Double> getError( List<Double> output, List<Double> desiredOutput ) {
+  public List<Double> getOutputError( List<Double> output, List<Double> desiredOutput ) {
       List<Double> err = new ArrayList<>();
       
       for( int i = 0; i < desiredOutput.size(); i++ ) {
@@ -77,6 +77,10 @@ public class LearningRule {
           err.add(el);
       }
       return err;
-  } 
+  }
+  
+  public void updateNetworkWeights( List<Double> outputError ) {
+      
+  }
 
 }
