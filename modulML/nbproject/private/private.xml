@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/projects/ModulML/modulML/src/modulml/ModulML.java</file>
+            <file>file:/D:/projects/ModulML/modulML/src/modulml/InputFunction.java</file>
+            <file>file:/D:/projects/ModulML/modulML/src/modulml/TrainingSet.java</file>
+            <file>file:/D:/projects/ModulML/modulML/src/modulml/SummingFunction.java</file>
+            <file>file:/D:/projects/ModulML/modulML/src/modulml/WeightsFunction.java</file>
+            <file>file:/D:/projects/ModulML/modulML/src/modulml/Connection.java</file>
+            <file>file:/D:/projects/ModulML/modulML/src/modulml/LearningRule.java</file>
+            <file>file:/D:/projects/ModulML/modulML/src/modulml/Layer.java</file>
+            <file>file:/D:/projects/ModulML/modulML/src/modulml/Neuron.java</file>
+            <file>file:/D:/projects/ModulML/modulML/src/modulml/TrainingElement.java</file>
+            <file>file:/D:/projects/ModulML/modulML/src/modulml/NeuralNetwork.java</file>
+        </group>
+    </open-files>
 </project-private>
