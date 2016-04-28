@@ -109,6 +109,7 @@ public class Neuron {
         List<Weight> wgt = new ArrayList<>();
         for(int i = 0; i < inputConnections.size(); i++)
             wgt.add(inputConnections.get(i).weight);
+        return wgt;
     }
 
     public double getError() {
@@ -125,7 +126,7 @@ public class Neuron {
 
     public void randomizeInputWeights() {
         for (int i=0; i< inputConnections.size(); i++)
-            inputConnections.get(i).weight.value = Math.random();
+            inputConnections.get(i).weight.setValue(Math.random());
     }
 
 }

@@ -1,29 +1,29 @@
 package modulml;
-import java.util.Vector;
 
 public class Connection {
+    public Neuron  connectedNeuron;
+    public Weight weight;
 
-    public Vector  myNeuron;
-    public Vector  myNeuron;
-    public Vector  connectedNeuron;
-    public Vector  connectedNeuron;
-    public Vector  weight;
-
-  public void Connection(Neuron connectTo) {
+  public Connection(Neuron connectTo) {
+      this.connectedNeuron = connectTo;
   }
 
-  public void Connection(Neuron connectTo, Weight weight) {
+  public Connection(Neuron connectTo, Weight weight) {
+      this.connectedNeuron = connectTo;
+      this.weight = weight;
   }
 
-  public void Connection(Neuron from, Neuron connectTo) {
+  public Connection(Neuron from, Neuron connectTo) {
+      this.connectedNeuron = connectTo;
+      from.addOutputConnection(this);
   }
 
   public Weight getWeight() {
-  
+      return weight;
   }
 
   public Neuron getConnectedNeuron() {
-  
+      return connectedNeuron;
   }
 
 }

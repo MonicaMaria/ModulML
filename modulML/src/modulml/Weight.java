@@ -1,26 +1,23 @@
 package modulml;
-import java.util.Vector;
 
 public class Weight {
 
-  public double value;
+  private double value;
 
-  public double previousValue;
-
-    public Vector  myConnection;
-
-  public void Weight() {
+  public Weight() {
+      value=0;
   }
 
-  public void Weight(double value) {
+  public Weight(double value) {
+      this.value = value;
   }
 
   public void inc(double amount) {
-    return amount++;
+    amount++;
   }
 
   public void dec(double amount) {
-    return amount--;
+    amount--;
   }
 
   public void setValue(double value) {
@@ -31,20 +28,12 @@ public class Weight {
   return value;
   }
 
-  public void setPreviousValue(double previousValue) {
-    this.previousValue=previousValue;
-  }
-
-  public double getPreviousValue() {
-
-    return previousValue;
-  }
-
   public String toString() {
   return null;
   }
 
   public void randomize() {
+      this.value = Math.random();
   }
 
 }
