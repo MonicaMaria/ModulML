@@ -1,11 +1,11 @@
-import java.util.Vector;
+package modulml;
+
+import java.util.List;
 
 public class SummingFunction {
 
-    public Vector  myInputFunction;
-
-  public double getOutput(List<double> inputVector) {
-  return 0.0;
+  public double getOutput(List<Double> inputVector) {
+    return 0.0;
   }
 
   public String toString() {

@@ -1,10 +1,12 @@
-import java.util.Vector;
+package modulml;
+
+import java.util.List;
+
 
 public class InputFunction {
 
-    public Vector  myNeuron;
-    public Vector  summingFunction;
-    public Vector  weightsFunction;
+    public SummingFunction  summingFunction;
+    public WeightsFunction  weightsFunction;
 
   public void InputFunction() {
   }

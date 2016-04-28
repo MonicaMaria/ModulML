@@ -68,7 +68,7 @@ public class NeuralNetwork {
   }
 
   public void run() {
-
+      learningRule.run();
   }
 
   public void learn(TrainingSet trainingSetToLearn) {
