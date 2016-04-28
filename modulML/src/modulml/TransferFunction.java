@@ -1,19 +1,23 @@
-import java.util.Vector;
+package modulml;
+
+
 
 public class TransferFunction {
 
-    public Vector  myNeuron;
-
+  protected double output;
+   
   public double getOutput(double net) {
-  return 0.0;
+    return this.output;
   }
 
   public double getDerivative(double net) {
-  return 0.0;
+    return 0.0;
   }
 
+  @Override
   public String toString() {
-  return null;
+    return getClass().getName();
   }
 
+    
 }
