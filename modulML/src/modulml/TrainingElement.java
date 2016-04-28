@@ -9,6 +9,7 @@ public class TrainingElement {
      *
      */
   public List<Double> input;
+  public List<Double> desiredOutput;
 
   public String label;
 
@@ -20,9 +21,17 @@ public class TrainingElement {
   public List<Double> getInput() {
       return input;
   }
+  
+  public List<Double> getDesiredOutput() {
+      return desiredOutput;
+  }
 
   public void setInput( List<Double> in) {
       input = in;
+  }
+  
+  public void setDesiredInput(List<Double> output) {
+      desiredOutput = output;
   }
 
   public String getLabel() {

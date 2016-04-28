@@ -41,7 +41,7 @@ public class LearningRule {
   public void run() {
       
       if( isStopped() == false ) {
-          trainingSet = new TrainingSet();
+          // iau greutatile din fisier, sau le fac random
           learn(trainingSet);
       }
   }
@@ -67,5 +67,16 @@ public class LearningRule {
       //algoritm genetic
       
   }
+  
+  public List<Double> getError( List<Double> output, List<Double> desiredOutput ) {
+      List<Double> err = new ArrayList<>();
+      
+      for( int i = 0; i < desiredOutput.size(); i++ ) {
+          Double el;
+          el = desiredOutput.get(i) - output.get(i);
+          err.add(el);
+      }
+      return err;
+  } 
 
 }
