@@ -1,3 +1,5 @@
+package modulml;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -11,10 +13,13 @@ public class LearningRule {
   public void LearningRule() {
       neuralNetwork = null;
       trainingSet = null;
+      stopLearning = false;
   }
 
   public void LearningRule(NeuralNetwork network) {
       neuralNetwork = network;
+      trainingSet = null;
+      stopLearning = false;
   }
 
   public void setTrainingSet(TrainingSet trainingSet) {
@@ -34,19 +39,33 @@ public class LearningRule {
   }
 
   public void run() {
+      
+      if( isStopped() == false ) {
+          trainingSet = new TrainingSet();
+          learn(trainingSet);
+      }
   }
 
   public void stopLearning() {
+      stopLearning = true;
   }
 
   public boolean isStopped() {
-    return false;
+      return stopLearning;
   }
 
   public void notifyChange() {
+      
+      if( isStopped() == false ) {
+          
+      }
+      
   }
 
   public void learn(TrainingSet trainingSet) {
+      
+      //algoritm genetic
+      
   }
 
 }
