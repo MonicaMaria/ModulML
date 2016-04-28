@@ -1,3 +1,4 @@
+package modulml;
 import java.util.Vector;
 
 public class Weight {
@@ -15,23 +16,28 @@ public class Weight {
   }
 
   public void inc(double amount) {
+    return amount++;
   }
 
   public void dec(double amount) {
+    return amount--;
   }
 
   public void setValue(double value) {
+    this.value=value;
   }
 
   public double getValue() {
-  return 0.0;
+  return value;
   }
 
   public void setPreviousValue(double previousValue) {
+    this.previousValue=previousValue;
   }
 
   public double getPreviousValue() {
-  return 0.0;
+
+    return previousValue;
   }
 
   public String toString() {

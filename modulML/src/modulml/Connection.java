@@ -1,3 +1,4 @@
+package modulml;
 import java.util.Vector;
 
 public class Connection {
@@ -18,11 +19,11 @@ public class Connection {
   }
 
   public Weight getWeight() {
-  return null;
+  
   }
 
   public Neuron getConnectedNeuron() {
-  return null;
+  
   }
 
 }
