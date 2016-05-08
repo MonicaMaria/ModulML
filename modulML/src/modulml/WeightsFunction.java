@@ -1,22 +1,15 @@
-package modulml;
-
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Vector;
 
 public class WeightsFunction {
 
-    public List<Double> getOutput(List<Connection> inputs) {
+    public Vector  myInputFunction;
 
-        List<Double> outputList = new ArrayList<>();
+  public List<double> getOutput(List<Connection> inputs) {
+  return null;
+  }
 
-//      for(int i=0;i<inputs.size();i++)
-//          outputList.add(inputs.);
-        return outputList;
-    }
-
-    @Override
-    public String toString() {
-        return getClass().getName();
-    }
+  public String toString() {
+  return null;
+  }
 
 }

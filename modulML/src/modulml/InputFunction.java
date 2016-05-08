@@ -2,35 +2,28 @@ package modulml;
 
 import java.util.List;
 
+
 public class InputFunction {
 
-    public SummingFunction summingFunction;
-    public WeightsFunction weightsFunction;
+    public SummingFunction  summingFunction;
+    public WeightsFunction  weightsFunction;
 
-    public void InputFunction() {
-        summingFunction = null;
-        weightsFunction = null;
-    }
+  public void InputFunction() {
+  }
 
-    public void InputFunction(WeightsFunction weightsFunction, SummingFunction summingFunction) {
-        this.weightsFunction = weightsFunction;
-        this.summingFunction = summingFunction;
-    }
+  public void InputFunction(WeightsFunction weightsFunction, SummingFunction summingFunction) {
+  }
 
-    public double getOutput(List<Connection> inputConnections) {
-        double output = 0.0;
+  public double getOutput(List<Connection> inputConnections) {
+  return 0.0;
+  }
 
-//        for(int i=0; i<inputConnections.size(); i++) {
-//        }
-        return output;
-    }
+  public SummingFunction getSummingFunction() {
+  return null;
+  }
 
-    public SummingFunction getSummingFunction() {
-        return this.summingFunction;
-    }
-
-    public WeightsFunction getWeightsFunction() {
-        return this.weightsFunction;
-    }
+  public WeightsFunction getWeightsFunction() {
+  return null;
+  }
 
 }

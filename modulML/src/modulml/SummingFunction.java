@@ -4,19 +4,12 @@ import java.util.List;
 
 public class SummingFunction {
 
-    public double getOutput(List<Double> inputVector) {
+  public double getOutput(List<Double> inputVector) {
+    return 0.0;
+  }
 
-        double output = 0.0;
-
-        for (int i = 0; i < inputVector.size(); i++) 
-            output = output + inputVector.get(i);
-        
-        return output;
-    }
-
-    @Override
-    public String toString() {
-        return getClass().getName();
-    }
+  public String toString() {
+  return null;
+  }
 
 }
