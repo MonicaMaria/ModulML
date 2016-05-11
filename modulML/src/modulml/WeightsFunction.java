@@ -1,10 +1,10 @@
-import java.util.Vector;
+package modulml;
+
+import java.util.List;
 
 public class WeightsFunction {
 
-    public Vector  myInputFunction;
-
-  public List<double> getOutput(List<Connection> inputs) {
+  public List<Double> getOutput(List<Connection> inputs) {
   return null;
   }
 
