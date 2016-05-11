@@ -28,7 +28,7 @@ public class NeuralNetwork {
     private boolean startLearn;
     private List<Double> outputLayer;
     private boolean trainLoaded;
-    
+
     public String suggestions;
     public int outputSize;
 
@@ -55,8 +55,9 @@ public class NeuralNetwork {
         for (Iterator iterator = inputobj.keySet().iterator(); iterator.hasNext();) {
             String key = (String) iterator.next();
             JSONArray arr = (JSONArray) inputobj.get(key);
-            for (int i = 0; i < arr.size(); i++)
+            for (int i = 0; i < arr.size(); i++) {
                 input.add(0.0);
+            }
         }
         this.setInputLayer(input);
     }
@@ -66,14 +67,16 @@ public class NeuralNetwork {
         this.outputSize = outputRetea.size();
         this.addOutputLayer(outputRetea.size());
         if (startLearn == true) {
-            for (int i = 0; i < outputRetea.size(); i++)
+            for (int i = 0; i < outputRetea.size(); i++) {
                 desiredOutput.add(-1.0);
+            }
         }
     }
 
     private void setInputLayer(List<Double> input) {
-        for (int i = 0; i < input.size(); i++)
+        for (int i = 0; i < input.size(); i++) {
             inputLayer.add(input.get(i));
+        }
     }
 
     public List<Double> getInputLayer() {
@@ -81,8 +84,9 @@ public class NeuralNetwork {
     }
 
     public void addOutputLayer(int num) {
-        for (int i = 0; i < num; i++)
+        for (int i = 0; i < num; i++) {
             outputLayer.add(0.0);
+        }
     }
 
     public void addNeurons() throws IOException, ParseException {
@@ -110,18 +114,20 @@ public class NeuralNetwork {
                     weights.add(w);
                 }
 
-                if (weights.isEmpty())
+                if (weights.isEmpty()) {
                     neuron.randomize();
-                else
+                } else {
                     neuron.setWeights(weights);
+                }
             }
             hiddenLayer.add(neuron);
         }
     }
 
     public void setDesiredOutput(List<Double> output) {
-        for (int i = 0; i < output.size(); i++)
+        for (int i = 0; i < output.size(); i++) {
             desiredOutput.add(output.get(i));
+        }
     }
 
     public List<Double> getDesiredOutput() {
@@ -134,8 +140,9 @@ public class NeuralNetwork {
             return;
         }
         //hiddenLayer = trainingSet;
-        for (int i = 0; i < trainingSet.size(); i++)
+        for (int i = 0; i < trainingSet.size(); i++) {
             hiddenLayer.set(i, trainingSet.get(i));
+        }
     }
 
     private void saveState() throws IOException {
@@ -145,8 +152,9 @@ public class NeuralNetwork {
             String label = "n_" + i;
             Neuron neur = hiddenLayer.get(i);
             JSONArray list = new JSONArray();
-            for (int j = 0; j < neur.getWeights().size(); j++)
+            for (int j = 0; j < neur.getWeights().size(); j++) {
                 list.add(neur.getWeights().get(j));
+            }
             obj.put(label, list);
             //outJson[label] = hiddenLayer.get(i).weights;
         }
@@ -163,8 +171,9 @@ public class NeuralNetwork {
         JSONArray outputRetea = (JSONArray) config.get("output");
         JSONArray outList = new JSONArray();
         for (int i = 0; i < outputLayer.size(); i++) {
-            if (outputLayer.get(i) == 1.0)
+            if (outputLayer.get(i) == 1.0) {
                 outList.add(outputRetea.get(i));
+            }
         }
         saveOutput.put("suggestions", outList);
 
@@ -190,33 +199,30 @@ public class NeuralNetwork {
         }
     }
 
-    private void setLearnParams() throws IOException, ParseException {
+    private int setLearnParams(String action, JSONObject inputRetea) throws IOException, ParseException {
 
-        JSONObject paramRetea = (JSONObject) parser.parse(new FileReader("train.json"));
         JSONObject inputobj = (JSONObject) config.get("input");
         JSONArray outputRetea = (JSONArray) config.get("output");
 
-        for (Iterator iterator = paramRetea.keySet().iterator(); iterator.hasNext();) {
-            String key = (String) iterator.next();
-            int idx = outputRetea.indexOf(key);
-            int offset = 0;
-            if (idx >= 0) {
-                desiredOutput.set(idx, 1.0);
-                JSONObject inputRetea = (JSONObject) paramRetea.get(key);
-                for (Iterator it = inputRetea.keySet().iterator(); it.hasNext();) {
-                    String inKey = (String) it.next();
-                    //System.out.println(inputRetea.get(inKey));
-                    JSONArray inArr = (JSONArray) inputobj.get(inKey);
-                    //System.out.println(inArr);
-                    int inputInd = inArr.indexOf(inputRetea.get(inKey));
-                    inputInd = inputInd + offset;
+        int idx = outputRetea.indexOf(action);
+        int offset = 0;
+        if (idx >= 0) {
+            desiredOutput.set(idx, 1.0);
+            for (Iterator it = inputRetea.keySet().iterator(); it.hasNext();) {
+                String inKey = (String) it.next();
+                //System.out.println(inputRetea.get(inKey));
+                JSONArray inArr = (JSONArray) inputobj.get(inKey);
+                //System.out.println(inArr);
+                int inputInd = inArr.indexOf(inputRetea.get(inKey));
+                inputInd = inputInd + offset;
 
-                    inputLayer.set(inputInd, 1.0);
+                inputLayer.set(inputInd, 1.0);
 
-                    offset = offset + inArr.size();
-                }
+                offset = offset + inArr.size();
             }
+            return 1;
         }
+        return -1;
     }
 
     public void start() throws IOException, ParseException {
@@ -226,11 +232,21 @@ public class NeuralNetwork {
         this.addNeurons();
 
         if (startLearn == true) {
-            this.setLearnParams();
-            LearningRule learningRule = new LearningRule(this);
-            learningRule.setTrainingSet(hiddenLayer);
-            learningRule.learn();
-            updateWeights(learningRule.getTrainingSet());
+            JSONArray paramRetea = (JSONArray) parser.parse(new FileReader("trainData.json"));
+            //for (Iterator iterator = paramRetea.keySet().iterator(); iterator.hasNext();) {
+            for( int iterator = 0; iterator < paramRetea.size(); iterator++ ) {
+                //String action = (String) iterator.next();
+                JSONObject actionObj = (JSONObject) paramRetea.get(iterator);
+                Iterator it = actionObj.keySet().iterator();
+                String action = (String) it.next();
+                JSONObject inputRetea = (JSONObject) actionObj.get(action);
+                if(this.setLearnParams(action, inputRetea) == 1) {
+                    LearningRule learningRule = new LearningRule(this);
+                    learningRule.setTrainingSet(hiddenLayer);
+                    learningRule.learn();
+                    updateWeights(learningRule.getTrainingSet());
+                }
+            }
             saveState();
         } else {
             this.setNetworkParams();

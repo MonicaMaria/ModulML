@@ -1,0 +1,1277 @@
+[
+	{
+		"pornire_stropitori" : {
+			"zi" : "duminica",
+			"ora" : 19
+	}}, {
+	"oprire_stropitori" : {
+		"zi" : "duminica",
+		"ora" : 21
+	}}, {
+	"inchide_usa_garaj" : {
+		"zi" : "duminica",
+		"ora" : 21
+	}}, {
+	"inchide_usa_casa" : {
+		"zi" : "duminica",
+		"ora" : 22
+	}}, {
+	
+
+	"deschide_usa_casa" : {
+		"zi" : "duminica",
+		"ora" : 12
+	}}, {
+	
+
+	"deschide_usa_garaj" : {
+		"zi" : "duminica",
+		"ora" : 12
+	}}, {
+	
+
+  "aprinde_lumini_interior":{
+    "zi":"joi",
+    "ora": 6
+  }}, {
+
+  "inchide_usa_garaj":{
+    "zi":"joi",
+    "ora": 8
+  }}, {
+
+  "inchide_usa_garaj":{
+    "zi":"joi",
+    "ora": 8
+  }}, {
+
+
+  "deschide_usa_garaj":{
+    "zi":"joi",
+    "ora": 16
+  }}, {
+
+  "deschide_usa_casa":{
+    "zi":"joi",
+    "ora": 16
+  }}, {
+
+  "inchide_usa_garaj":{
+    "zi":"joi",
+    "ora": 16
+  }}, {
+
+  "deschide_televizor":{
+    "zi":"joi",
+    "ora": 17
+  }}, {
+
+  "porneste_cuptor":{
+    "zi":"joi",
+    "ora": 17
+  }}, {
+
+  "porneste_masina_rufe":{
+    "zi":"joi",
+    "ora": 17
+  }}, {
+
+  "opreste_cuptor":{
+    "zi":"joi",
+    "ora": 17
+  }}, {
+
+  "porneste_centrala":{
+    "zi":"joi",
+    "ora": 6
+  }}, {
+
+  "porneste_stropitori":{
+    "zi":"joi",
+    "ora": 18
+  }}, {
+
+  "opreste_stropitori":{
+    "zi":"joi",
+    "ora": 18
+  }}, {
+
+  "opreste_masina_rufe":{
+    "zi":"joi",
+    "ora": 19
+  }}, {
+
+  "aprinde_lumini_exterior":{
+    "zi":"joi",
+    "ora": 19
+  }}, {
+
+  "porneste_masina_tuns_iarba":{
+    "zi":"joi",
+    "ora": 20
+  }}, {
+
+  "opreste_masina_tuns_iarba":{
+    "zi":"joi",
+    "ora": 20
+  }}, {
+
+  "inchide_televizor":{
+    "zi":"joi",
+    "ora": 22
+  }}, {
+
+  "stinge_lumini_interior":{
+    "zi":"joi",
+    "ora": 22
+  }}, {
+
+  "stinge_lumini_exterior":{
+    "zi":"joi",
+    "ora": 6
+  }}, {
+
+  "aprinde_televizorul":{
+    "zi":"joi",
+    "ora": 7  }}, {
+
+  "porneste_filtru_cafea":{
+    "zi":"joi",
+    "ora": 7
+  }}, {
+
+  "stinge_televizorul":{
+    "zi":"joi",
+    "ora": 7
+  }}, {
+
+  "stinge_lumini_interior":{
+    "zi":"joi",
+    "ora": 8
+  }}, {
+
+  "deschide_usa_casa":{
+    "zi":"joi",
+    "ora": 8
+  }}, {
+
+  "deschide_usa_garaj":{
+    "zi":"joi",
+    "ora": 8
+  }}, {
+
+	"opreste_alarma" : {
+		"zi" : "luni",
+		"ora" : 6
+	}}, {
+	
+
+	"uda_gazon" : {
+		"zi" : "luni",
+		"ora" : 9
+	}}, {
+	
+
+	"opreste_alarma" : {
+		"zi" : "luni",
+		"ora" : 18
+	}}, {
+	
+
+	"porneste_lumini_exterioare" : {
+		"zi" : "luni",
+		"ora" : 18
+	}}, {
+	
+
+	"deschide_garaj" : {
+		"zi" : "luni",
+		"ora" : 18
+	}}, {
+	
+
+	"inchide_garaj" : {
+		"zi" : "luni",
+		"ora" : 18
+	}}, {
+	
+
+	"opreste_lumini_exterioare" : {
+		"zi" : "luni",
+		"ora" : 18
+	}}, {
+	
+
+	"porneste_lumini_interioare" : {
+		"zi" : "luni",
+		"ora" : 18
+	}}, {
+	
+
+	"opreste_lumini_interioare" : {
+		"zi" : "luni",
+		"ora" : 22
+	}}, {
+	
+
+	"opreste_termostat" : {
+		"zi" : "luni",
+		"ora" : 22
+	}}, {
+	
+
+	"porneste_alarma" : {
+		"zi" : "luni",
+		"ora" : 22
+	}}, {
+	
+
+	"porneste_lumini_interioare" : {
+		"zi" : "luni",
+		"ora" : 6
+	}}, {
+	
+
+	"prepara_cafea" : {
+		"zi" : "luni",
+		"ora" : 6
+	}}, {
+	
+
+	"deschide_garaj" : {
+		"zi" : "luni",
+		"ora" : 8
+	}}, {
+	
+
+	"inchide_garaj" : {
+		"zi" : "luni",
+		"ora" : 8
+	}}, {
+	
+
+	"opreste_lumini_interioare" : {
+		"zi" : "luni",
+		"ora" : 8
+	}}, {
+	
+
+	"opreste_termostat" : {
+		"zi" : "luni",
+		"ora" : 8
+	}}, {
+	
+
+	"porneste_alarma" : {
+		"zi" : "luni",
+		"ora" : 8
+	}}, {
+	
+
+  "aprinde_lumini_interior":{
+    "zi":"marti",
+    "ora": 6
+  }}, {
+
+  "deschide_usa_garaj":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+  "inchide_usa_garaj":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+  "inchide_usa_garaj":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+  "deschide_poarta":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+  "inchide_poarta":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+
+  "deschide_poarta":{
+    "zi":"marti",
+    "ora": 16
+  }}, {
+
+  "deschide_usa_garaj":{
+    "zi":"marti",
+    "ora": 16
+  }}, {
+
+  "stinge_lumini_exterior":{
+    "zi":"marti",
+    "ora": 6
+  }}, {
+
+  "inchide_poarta":{
+    "zi":"marti",
+    "ora": 16
+  }}, {
+
+  "inchide_usa_garaj":{
+    "zi":"marti",
+    "ora": 16
+  }}, {
+
+  "deschide_usa_casa":{
+    "zi":"marti",
+    "ora": 16
+  }}, {
+
+  "aprinde_lumini_interior":{
+    "zi":"marti",
+    "ora": 16
+  }}, {
+
+  "porneste_televizor":{
+    "zi":"marti",
+    "ora": 17
+  }}, {
+
+  "porneste_centrala":{
+    "zi":"marti",
+    "ora": 17
+  }}, {
+
+  "porneste_stropitori":{
+    "zi":"marti",
+    "ora": 18
+	}}, {
+
+  "opreste_stropitori":{
+    "zi":"marti",
+    "ora": 19
+  }}, {
+
+  "aprinde_lumini_exterior":{
+    "zi":"marti",
+    "ora": 19
+  }}, {
+
+  "porneste_masina_tuns_iarba":{
+    "zi":"marti",
+    "ora": 19
+  }}, {
+
+  "porneste_centrala":{
+    "zi":"marti",
+    "ora": 6
+  }}, {
+
+  "opreste_masina_tuns_iarba":{
+    "zi":"marti",
+    "ora": 20
+  }}, {
+
+  "stinge_lumini_exterior":{
+    "zi":"marti",
+    "ora": 20
+  }}, {
+
+  "porneste_cuptor":{
+    "zi":"marti",
+    "ora": 21
+  }}, {
+
+  "opreste_cuptor":{
+    "zi":"marti",
+    "ora": 21
+  }}, {
+
+  "porneste_televizor":{
+    "zi":"marti",
+    "ora": 21
+  }}, {
+
+  "opreste_televizor":{
+    "zi":"marti",
+    "ora": 22  }}, {
+
+  "opreste_centrala":{
+    "zi":"marti",
+    "ora": 22
+  }}, {
+
+  "stinge_lumini_interior":{
+    "zi":"marti",
+    "ora": 22
+  }}, {
+
+  "porneste_cuptor":{
+    "zi":"marti",
+    "ora": 6
+  }}, {
+
+  "opreste_cuptor":{
+    "zi":"marti",
+    "ora": 6
+  }}, {
+
+  "porneste_televizor":{
+    "zi":"marti",
+    "ora": 6
+  }}, {
+
+  "opreste_televizor":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+  "stinge_lumini_interior":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+  "deschide_usa_casa":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+	"opreste_alarma" : {
+		"zi" : "miercuri",
+		"ora" : 6
+	}}, {
+	
+
+	"opreste_alarma" : {
+		"zi" : "miercuri",
+		"ora" : 18
+	}}, {
+	
+
+	"porneste_lumini_exterioare" : {
+		"zi" : "miercuri",
+		"ora" : 18
+	}}, {
+	
+
+	"deschide_garaj" : {
+		"zi" : "miercuri",
+		"ora" : 18
+	}}, {
+	
+
+	"inchide_garaj" : {
+		"zi" : "miercuri",
+		"ora" : 18
+	}}, {
+	
+
+	"opreste_lumini_exterioare" : {
+		"zi" : "miercuri",
+		"ora" : 18
+	}}, {
+	
+
+	"porneste_lumini_interioare" : {
+		"zi" : "miercuri",
+		"ora" : 19
+	}}, {
+	
+
+	"opreste_lumini_interioare" : {
+		"zi" : "miercuri",
+		"ora" : 22
+	}}, {
+	
+
+	"porneste_alarma" : {
+		"zi" : "miercuri",
+		"ora" : 22
+	}}, {
+
+	"porneste_lumini_interioare" : {
+		"zi" : "miercuri",
+		"ora" : 6
+	}}, {
+	
+
+	"prepara_cafea" : {
+		"zi" : "miercuri",
+		"ora" : 6
+	}}, {
+	
+
+	"deschide_garaj" : {
+		"zi" : "miercuri",
+		"ora" : 8
+	}}, {
+	
+
+	"inchide_garaj" : {
+		"zi" : "miercuri",
+		"ora" : 8
+	}}, {
+	
+
+	"opreste_lumini_interioare" : {
+		"zi" : "miercuri",
+		"ora" : 10
+	}}, {
+	
+
+	"opreste_termostat" : {
+		"zi" : "miercuri",
+		"ora" : 11
+	}}, {
+	
+
+	"porneste_alarma" : {
+		"zi" : "miercuri",
+		"ora" : 16
+	}}, {
+	
+
+	"pornire_stropitori" : {
+		"zi" : "sambata",
+		"ora" : 19
+	}}, {
+	
+
+	"oprire_stropitori" : {
+		"zi" : "sambata",
+		"ora" : 21
+	}}, {
+	
+
+	"inchide_usa_garaj" : {
+		"zi" : "sambata",
+		"ora" : 21
+	}}, {
+	
+
+	"inchide_usa_casa" : {
+		"zi" : "sambata",
+		"ora" : 22
+	}}, {
+	
+
+	"deschide_usa_casa" : {
+		"zi" : "sambata",
+		"ora" : 9
+	}}, {
+	
+
+	"deschide_usa_garaj" : {
+		"zi" : "sambata",
+		"ora" : 9
+	}}, {
+
+	"pornire_stropitori" : {
+		"zi" : "duminica",
+		"ora" : 19
+	}}, {
+	
+
+	"oprire_stropitori" : {
+		"zi" : "duminica",
+		"ora" : 21
+	}}, {
+	
+
+	"inchide_usa_garaj" : {
+		"zi" : "duminica",
+		"ora" : 21
+	}}, {
+	
+
+	"inchide_usa_casa" : {
+		"zi" : "duminica",
+		"ora" : 22
+	}}, {
+	
+
+	"deschide_usa_casa" : {
+		"zi" : "duminica",
+		"ora" : 12
+	}}, {
+	
+
+	"deschide_usa_garaj" : {
+		"zi" : "duminica",
+		"ora" : 12
+	}}, {
+	
+
+  "aprinde_lumini_interior":{
+    "zi":"joi",
+    "ora": 6
+  }}, {
+
+  "inchide_usa_garaj":{
+    "zi":"joi",
+    "ora": 8
+  }}, {
+
+  "inchide_usa_garaj":{
+    "zi":"joi",
+    "ora": 8
+  }}, {
+
+
+  "deschide_usa_garaj":{
+    "zi":"joi",
+    "ora": 16
+  }}, {
+
+  "deschide_usa_casa":{
+    "zi":"joi",
+    "ora": 16
+  }}, {
+
+  "inchide_usa_garaj":{
+    "zi":"joi",
+    "ora": 16
+  }}, {
+
+  "deschide_televizor":{
+    "zi":"joi",
+    "ora": 17
+  }}, {
+
+  "porneste_cuptor":{
+    "zi":"joi",
+    "ora": 17
+  }}, {
+
+  "porneste_masina_rufe":{
+    "zi":"joi",
+    "ora": 17
+  }}, {
+
+  "opreste_cuptor":{
+    "zi":"joi",
+    "ora": 17
+  }}, {
+
+  "porneste_centrala":{
+    "zi":"joi",
+    "ora": 6
+  }}, {
+
+  "porneste_stropitori":{
+    "zi":"joi",
+    "ora": 18
+  }}, {
+
+  "opreste_stropitori":{
+    "zi":"joi",
+    "ora": 18
+  }}, {
+
+  "opreste_masina_rufe":{
+    "zi":"joi",
+    "ora": 19
+  }}, {
+
+  "aprinde_lumini_exterior":{
+    "zi":"joi",
+    "ora": 19
+  }}, {
+
+  "porneste_masina_tuns_iarba":{
+    "zi":"joi",
+    "ora": 20
+  }}, {
+
+  "opreste_masina_tuns_iarba":{
+    "zi":"joi",
+    "ora": 20
+  }}, {
+
+  "inchide_televizor":{
+    "zi":"joi",
+    "ora": 22
+  }}, {
+
+  "stinge_lumini_interior":{
+    "zi":"joi",
+    "ora": 22
+  }}, {
+
+  "stinge_lumini_exterior":{
+    "zi":"joi",
+    "ora": 6
+  }}, {
+
+  "aprinde_televizorul":{
+    "zi":"joi",
+    "ora": 7  }}, {
+
+  "porneste_filtru_cafea":{
+    "zi":"joi",
+    "ora": 7
+  }}, {
+
+  "stinge_televizorul":{
+    "zi":"joi",
+    "ora": 7
+  }}, {
+
+  "stinge_lumini_interior":{
+    "zi":"joi",
+    "ora": 8
+  }}, {
+
+  "deschide_usa_casa":{
+    "zi":"joi",
+    "ora": 8
+  }}, {
+
+  "deschide_usa_garaj":{
+    "zi":"joi",
+    "ora": 8
+  }}, {
+
+	"opreste_alarma" : {
+		"zi" : "luni",
+		"ora" : 6
+	}}, {
+	
+
+	"uda_gazon" : {
+		"zi" : "luni",
+		"ora" : 9
+	}}, {
+	
+
+	"opreste_alarma" : {
+		"zi" : "luni",
+		"ora" : 18
+	}}, {
+	
+
+	"porneste_lumini_exterioare" : {
+		"zi" : "luni",
+		"ora" : 18
+	}}, {
+	
+
+	"deschide_garaj" : {
+		"zi" : "luni",
+		"ora" : 18
+	}}, {
+	
+
+	"inchide_garaj" : {
+		"zi" : "luni",
+		"ora" : 18
+	}}, {
+	
+
+	"opreste_lumini_exterioare" : {
+		"zi" : "luni",
+		"ora" : 18
+	}}, {
+	
+
+	"porneste_lumini_interioare" : {
+		"zi" : "luni",
+		"ora" : 18
+	}}, {
+	
+
+	"opreste_lumini_interioare" : {
+		"zi" : "luni",
+		"ora" : 22
+	}}, {
+	
+
+	"opreste_termostat" : {
+		"zi" : "luni",
+		"ora" : 22
+	}}, {
+	
+
+	"porneste_alarma" : {
+		"zi" : "luni",
+		"ora" : 22
+	}}, {
+	
+
+	"porneste_lumini_interioare" : {
+		"zi" : "luni",
+		"ora" : 6
+	}}, {
+	
+
+	"prepara_cafea" : {
+		"zi" : "luni",
+		"ora" : 6
+	}}, {
+	
+
+	"deschide_garaj" : {
+		"zi" : "luni",
+		"ora" : 8
+	}}, {
+	
+
+	"inchide_garaj" : {
+		"zi" : "luni",
+		"ora" : 8
+	}}, {
+	
+
+	"opreste_lumini_interioare" : {
+		"zi" : "luni",
+		"ora" : 8
+	}}, {
+	
+
+	"opreste_termostat" : {
+		"zi" : "luni",
+		"ora" : 8
+	}}, {
+	
+
+	"porneste_alarma" : {
+		"zi" : "luni",
+		"ora" : 8
+	}}, {
+	
+
+  "aprinde_lumini_interior":{
+    "zi":"marti",
+    "ora": 6
+  }}, {
+
+  "deschide_usa_garaj":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+  "inchide_usa_garaj":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+  "inchide_usa_garaj":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+  "deschide_poarta":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+  "inchide_poarta":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+  "deschide_poarta":{
+    "zi":"marti",
+    "ora": 16
+  }}, {
+
+  "deschide_usa_garaj":{
+    "zi":"marti",
+    "ora": 16
+  }}, {
+
+  "stinge_lumini_exterior":{
+    "zi":"marti",
+    "ora": 6
+  }}, {
+
+  "inchide_poarta":{
+    "zi":"marti",
+    "ora": 16
+  }}, {
+
+  "inchide_usa_garaj":{
+    "zi":"marti",
+    "ora": 16
+  }}, {
+
+  "deschide_usa_casa":{
+    "zi":"marti",
+    "ora": 16
+  }}, {
+
+  "aprinde_lumini_interior":{
+    "zi":"marti",
+    "ora": 16
+  }}, {
+
+  "porneste_televizor":{
+    "zi":"marti",
+    "ora": 17
+  }}, {
+
+  "porneste_centrala":{
+    "zi":"marti",
+    "ora": 17
+  }}, {
+
+
+  "opreste_stropitori":{
+    "zi":"marti",
+    "ora": 19
+  }}, {
+
+  "aprinde_lumini_exterior":{
+    "zi":"marti",
+    "ora": 19
+  }}, {
+
+  "porneste_masina_tuns_iarba":{
+    "zi":"marti",
+    "ora": 19
+  }}, {
+
+  "porneste_centrala":{
+    "zi":"marti",
+    "ora": 6
+  }}, {
+
+  "opreste_masina_tuns_iarba":{
+    "zi":"marti",
+    "ora": 20
+  }}, {
+
+  "stinge_lumini_exterior":{
+    "zi":"marti",
+    "ora": 20
+  }}, {
+
+  "porneste_cuptor":{
+    "zi":"marti",
+    "ora": 21
+  }}, {
+
+  "opreste_cuptor":{
+    "zi":"marti",
+    "ora": 21
+  }}, {
+
+  "porneste_televizor":{
+    "zi":"marti",
+    "ora": 21
+  }}, {
+
+  "opreste_televizor":{
+    "zi":"marti",
+    "ora": 22  }}, {
+
+  "opreste_centrala":{
+    "zi":"marti",
+    "ora": 22
+  }}, {
+
+  "stinge_lumini_interior":{
+    "zi":"marti",
+    "ora": 22
+  }}, {
+
+  "porneste_cuptor":{
+    "zi":"marti",
+    "ora": 6
+  }}, {
+
+  "opreste_cuptor":{
+    "zi":"marti",
+    "ora": 6
+  }}, {
+
+  "porneste_televizor":{
+    "zi":"marti",
+    "ora": 6
+  }}, {
+
+  "opreste_televizor":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+  "stinge_lumini_interior":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+  "deschide_usa_casa":{
+    "zi":"marti",
+    "ora": 7
+  }}, {
+
+	"opreste_alarma" : {
+		"zi" : "miercuri",
+		"ora" : 6
+	}}, {
+	
+
+	"opreste_alarma" : {
+		"zi" : "miercuri",
+		"ora" : 18
+	}}, {
+	
+
+	"porneste_lumini_exterioare" : {
+		"zi" : "miercuri",
+		"ora" : 18
+	}}, {
+	
+
+	"deschide_garaj" : {
+		"zi" : "miercuri",
+		"ora" : 18
+	}}, {
+	
+
+	"inchide_garaj" : {
+		"zi" : "miercuri",
+		"ora" : 18
+	}}, {
+	
+
+	"opreste_lumini_exterioare" : {
+		"zi" : "miercuri",
+		"ora" : 18
+	}}, {
+	
+
+	"porneste_lumini_interioare" : {
+		"zi" : "miercuri",
+		"ora" : 18
+	}}, {
+	
+
+	"opreste_lumini_interioare" : {
+		"zi" : "miercuri",
+		"ora" : 22
+	}}, {
+	
+
+	"opreste_termostat" : {
+		"zi" : "miercuri",
+		"ora" : 22
+	}}, {
+	
+
+	"porneste_alarma" : {
+		"zi" : "miercuri",
+		"ora" : 22
+	}}, {
+	
+
+	"porneste_lumini_interioare" : {
+		"zi" : "miercuri",
+		"ora" : 6
+	}}, {
+	
+
+	"prepara_cafea" : {
+		"zi" : "miercuri",
+		"ora" : 6
+	}}, {
+	
+
+	"deschide_garaj" : {
+		"zi" : "miercuri",
+		"ora" : 8
+	}}, {
+	
+
+	"inchide_garaj" : {
+		"zi" : "miercuri",
+		"ora" : 8
+	}}, {
+	
+
+	"opreste_lumini_interioare" : {
+		"zi" : "miercuri",
+		"ora" : 8
+	}}, {
+	
+
+	"opreste_termostat" : {
+		"zi" : "miercuri",
+		"ora" : 8
+	}}, {
+	
+
+	"porneste_alarma" : {
+		"zi" : "miercuri",
+		"ora" : 8
+	}}, {
+	
+
+	"pornire_stropitori" : {
+		"zi" : "sambata",
+		"ora" : 19
+	}}, {
+	
+
+	"oprire_stropitori" : {
+		"zi" : "sambata",
+		"ora" : 21
+	}}, {
+	
+
+	"inchide_usa_garaj" : {
+		"zi" : "sambata",
+		"ora" : 21
+	}}, {
+	
+
+	"inchide_usa_casa" : {
+		"zi" : "sambata",
+		"ora" : 22
+	}}, {
+	
+
+	"deschide_usa_casa" : {
+		"zi" : "sambata",
+		"ora" : 9
+	}}, {
+	
+
+	"deschide_usa_garaj" : {
+		"zi" : "sambata",
+		"ora" : 9
+	}}, {
+	
+
+	"pornire_stropitori" : {
+		"zi" : "duminica",
+		"ora" : 19
+	}}, {
+	
+	
+	"deschide_apa_calda_cabina_dus" : {
+		"zi" : "vineri",
+		"ora" : 8
+	}}, {
+	
+
+	"coboara_jaluzele_externe" : {
+		"zi" : "vineri",
+		"ora" : 10
+	}}, {
+	
+
+	"porneste_aer_conditionat" : {
+		"zi" : "vineri",
+		"ora" : 12
+	}}, {
+	
+
+	"opreste_aer_conditionat" : {
+		"zi" : "vineri",
+		"ora" : 15
+	}}, {
+	
+
+	"porneste_stropitori" : {
+		"zi" : "vineri",
+		"ora" : 16
+	}}, {
+	
+
+	"opreste_stropitori" : {
+		"zi" : "vineri",
+		"ora" : 16
+	}}, {
+	
+
+	"reglare_umiditate" : {
+		"zi" : "vineri",
+		"ora" : 17
+	}}, {
+	
+
+	"aprindere_lumina_exterior_intrare_principala" : {
+		"zi" : "vineri",
+		"ora" : 18
+	}}, {
+	
+
+	"deschide_usa_garaj" : {
+		"zi" : "vineri",
+		"ora" : 18
+	}}, {
+	
+
+	"inchide_usa_garaj" : {
+		"zi" : "vineri",
+		"ora" : 18
+	}}, {
+	
+
+	"strange_jaluzele_exterioare" : {
+		"zi" : "vineri",
+		"ora" : 18
+	}}, {
+	
+
+	"inchide_apa_cabina_dus" : {
+		"zi" : "vineri",
+		"ora" : 8
+	}}, {
+	
+
+	"aprinde_lumina_exterior_intrare_principala" : {
+		"zi" : "vineri",
+		"ora" : 20
+	}}, {
+	
+
+	"stinge_lumina_exterior_intrare_principala" : {
+		"zi" : "vineri",
+		"ora" : 22
+	}}, {
+	
+
+	"porneste_radio_bucatarie" : {
+		"zi" : "vineri",
+		"ora" : 8
+	}}, {
+	
+
+	"porneste_tv" : {
+		"zi" : "vineri",
+		"ora" : 8
+	}}, {
+	
+
+	"opreste_radio_bucatarie" : {
+		"zi" : "vineri",
+		"ora" : 9
+	}}, {
+	
+
+	"opreste_tv" : {
+		"zi" : "vineri",
+		"ora" : 9
+	}}, {
+	
+
+	"opreste_tv" : {
+		"zi" : "vineri",
+		"ora" : 10
+	}}, {
+	
+
+	"deschide_usa_garaj" : {
+		"zi" : "vineri",
+		"ora" : 10
+	}}, {
+
+	"inchide_usa_garaj" : {
+		"zi" : "vineri",
+		"ora" : 10
+	}}
+]
