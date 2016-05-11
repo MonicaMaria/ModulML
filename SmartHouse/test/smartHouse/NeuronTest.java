@@ -82,7 +82,7 @@ public class NeuronTest {
     @Test
     public void testTrain() {
         System.out.println("train");
-        double desiredOutput = 0.0;
+        double desiredOutput = 1.0;
         double trainConstant = 0.3;
         
         List<Double> input = new ArrayList<>();
@@ -92,7 +92,19 @@ public class NeuronTest {
             else input.add(0.0);
         Neuron instance = new Neuron(input);
         instance.randomize();
+        double comp = instance.compute();
+        List<Double> lastw = new ArrayList<>();
+        List<Double> temp = instance.getWeights();
+        for( int k = 0; k < temp.size(); k++ ) {
+            lastw.add(temp.get(k));
+        }
         instance.train(desiredOutput, trainConstant);
+        if( desiredOutput == comp ) {
+           assertEquals(lastw,instance.getWeights());
+        }
+        else {
+            assertTrue("result",lastw != instance.getWeights());
+        }
         // TODO review the generated test code and remove the default call to fail.
     }
 
