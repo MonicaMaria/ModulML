@@ -3,5 +3,5 @@
 		"zi" : [ "duminica", "luni", "marti", "miercuri", "joi", "vineri", "sambata" ],
 		"ora" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 ]
 	},
-	"output" : [ "porneste_centrala", "deschide_garaj", "uda_gazon" ]
+	"output" : [ "deschide_usa_garaj", "inchide_usa_garaj", "deschide_usa_casa", "inchide_usa_casa", "aprinde_lumini_interior", "aprinde_lumini_exterior", "stinge_lumini_interior", "stinge_lumini_exterior", "porneste_filtru_cafea", "opreste_filtru_cafea", "porneste_stropitori", "opreste_stropitori", "porneste_masina_tuns_iarba", "opreste_masina_tuns_iarba", "porneste_masina_rufe", "opreste_masina_rufe", "deschide_tv", "inchide_tv", "porneste_cuptor", "opreste_cuptor", "porneste_radio_bucatarie", "opreste_radio_bucatarie", "porneste_aer_conditionat", "opreste_aer_conditionat", "coboara_jaluzele_exterioare", "inchide_apa_cabina_dus", "deschide_apa_calda_cabina_dus" ]
 }

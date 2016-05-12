@@ -3,12 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Monica/Documents/GitHub/MLSmartHouse/SmartHouse/test/smartHouse/MainTest.java</file>
-            <file>file:/C:/Users/Monica/Documents/GitHub/MLSmartHouse/SmartHouse/test/smartHouse/NeuralNetworkTest.java</file>
-            <file>file:/C:/Users/Monica/Documents/GitHub/MLSmartHouse/SmartHouse/src/smartHouse/LearningRule.java</file>
-            <file>file:/C:/Users/Monica/Documents/GitHub/MLSmartHouse/SmartHouse/src/smartHouse/NeuralNetwork.java</file>
-            <file>file:/C:/Users/Monica/Documents/GitHub/MLSmartHouse/SmartHouse/src/smartHouse/Neuron.java</file>
-            <file>file:/C:/Users/Monica/Documents/GitHub/MLSmartHouse/SmartHouse/src/smartHouse/Main.java</file>
+            <file>file:/D:/projects/ModulML/SmartHouse/test/smartHouse/MainTest.java</file>
+            <file>file:/D:/projects/ModulML/SmartHouse/test/smartHouse/NeuronTest.java</file>
+            <file>file:/D:/projects/ModulML/SmartHouse/src/smartHouse/NeuralNetwork.java</file>
+            <file>file:/D:/projects/ModulML/SmartHouse/test/smartHouse/NeuralNetworkTest.java</file>
+            <file>file:/D:/projects/ModulML/SmartHouse/src/smartHouse/Neuron.java</file>
+            <file>file:/D:/projects/ModulML/SmartHouse/src/smartHouse/LearningRule.java</file>
+            <file>file:/D:/projects/ModulML/SmartHouse/src/smartHouse/Main.java</file>
         </group>
     </open-files>
 </project-private>

@@ -235,19 +235,29 @@ public class NeuralNetwork {
             JSONArray paramRetea = (JSONArray) parser.parse(new FileReader("trainData.json"));
             //for (Iterator iterator = paramRetea.keySet().iterator(); iterator.hasNext();) {
             for( int iterator = 0; iterator < paramRetea.size(); iterator++ ) {
-                //String action = (String) iterator.next();
-                JSONObject actionObj = (JSONObject) paramRetea.get(iterator);
-                Iterator it = actionObj.keySet().iterator();
-                String action = (String) it.next();
-                JSONObject inputRetea = (JSONObject) actionObj.get(action);
-                if(this.setLearnParams(action, inputRetea) == 1) {
-                    LearningRule learningRule = new LearningRule(this);
-                    learningRule.setTrainingSet(hiddenLayer);
-                    learningRule.learn();
-                    updateWeights(learningRule.getTrainingSet());
-                }
+                    //this.addNeurons();
+                    //String action = (String) iterator.next();
+                    
+                    JSONObject actionObj = (JSONObject) paramRetea.get(iterator);
+                    Iterator it = actionObj.keySet().iterator();
+                    String action = (String) it.next();
+                    JSONObject inputRetea = (JSONObject) actionObj.get(action);
+                    for( int i = 0; i < inputLayer.size(); i++ ) {
+                        inputLayer.set(i, 0.0);
+                    }
+                    for( int i = 0; i < desiredOutput.size(); i++ ) {
+                        desiredOutput.set(i, -1.0);
+                    }
+                    if(this.setLearnParams(action, inputRetea) == 1) {
+                        LearningRule learningRule = new LearningRule(this);
+                        learningRule.setTrainingSet(hiddenLayer);
+                        learningRule.learn();
+                        updateWeights(learningRule.getTrainingSet());
+                        saveState();
+                    }
+                    
             }
-            saveState();
+            
         } else {
             this.setNetworkParams();
             for (int i = 0; i < hiddenLayer.size(); i++) {

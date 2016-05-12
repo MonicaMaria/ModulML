@@ -1,10 +1,10 @@
 [
 	{
-		"pornire_stropitori" : {
+		"porneste_stropitori" : {
 			"zi" : "duminica",
 			"ora" : 19
 	}}, {
-	"oprire_stropitori" : {
+	"opreste_stropitori" : {
 		"zi" : "duminica",
 		"ora" : 21
 	}}, {
@@ -533,13 +533,13 @@
 	}}, {
 	
 
-	"pornire_stropitori" : {
+	"porneste_stropitori" : {
 		"zi" : "sambata",
 		"ora" : 19
 	}}, {
 	
 
-	"oprire_stropitori" : {
+	"opreste_stropitori" : {
 		"zi" : "sambata",
 		"ora" : 21
 	}}, {
@@ -568,13 +568,13 @@
 		"ora" : 9
 	}}, {
 
-	"pornire_stropitori" : {
+	"porneste_stropitori" : {
 		"zi" : "duminica",
 		"ora" : 19
 	}}, {
 	
 
-	"oprire_stropitori" : {
+	"opreste_stropitori" : {
 		"zi" : "duminica",
 		"ora" : 21
 	}}, {
@@ -1109,13 +1109,13 @@
 	}}, {
 	
 
-	"pornire_stropitori" : {
+	"porneste_stropitori" : {
 		"zi" : "sambata",
 		"ora" : 19
 	}}, {
 	
 
-	"oprire_stropitori" : {
+	"opreste_stropitori" : {
 		"zi" : "sambata",
 		"ora" : 21
 	}}, {
@@ -1145,7 +1145,7 @@
 	}}, {
 	
 
-	"pornire_stropitori" : {
+	"porneste_stropitori" : {
 		"zi" : "duminica",
 		"ora" : 19
 	}}, {

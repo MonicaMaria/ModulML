@@ -30,7 +30,7 @@ public class Neuron {
         double sum = 0;
         for (int i = 0; i < inputs.size(); i++)
             sum += this.weights.get(i) * inputs.get(i);
-        if (sum > 0.5)
+        if (sum > 0)
             return 1;
         else
             return -1;
